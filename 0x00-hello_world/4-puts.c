@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - this prints the required statement
- * return - this returns 0 if exited properly, otherwise an error occured
+ * main - prints the phrase "programming is like a multilingual puzzle
+ * return - 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
