@@ -3,11 +3,11 @@
 /**
  * main - prints all possible combination of two digits
  *
- * Return; Always 0(success)
+ * Return: Always 0(success)
  */
 int main(void)
 {
-	int n,m;
+	int n, m;
 
 	for (n = 48; n <= 56; n++)
 	{
