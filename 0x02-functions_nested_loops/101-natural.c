@@ -10,18 +10,18 @@ int main(void)
 	unsigned long int 3sum, 5sum, sum;
 	int i;
 
-	3sum = 0;
-	5sum = 0;
+	sum3 = 0;
+	sum5 = 0;
 	sum = 0;
 	
 	for (i = 0; i < 1024; i++)
 	{
 		if ((i % 3) == 0)
-			3sum = 3sum + i;
+			sum3 = sum3 + i;
 		else if ((i % 5) == 0)
-			5sum = 5sum + i;
+			sum5 = sum5 + i;
 	}
-	sum = 3sum + 5sum;
+	sum = sum3 + sum5;
 	printf("%lu\n", sum);
 	return (0);
 }
