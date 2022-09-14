@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,10 +6,11 @@
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	i = 0;
 
-	j = positive_or_negative(i);
-	return (printf("%d", j));
+	positive_or_negative(i);
+
+	return (0);
 }
