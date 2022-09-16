@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - prints from 1 to 100, for multiples of 3 prints fizz and multiples of 5 prints buzz
+ * main - prints from 1 to 100
  *
  * Return: 0 success
  */
