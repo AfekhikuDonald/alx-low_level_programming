@@ -2,7 +2,7 @@
 
 /**
  * _strlen - return the lenght of a string
- * *s: the string to bve checked
+ * @s: the string to bve checked
  * Return: the lenght
  */
 int _strlen(char *s)
