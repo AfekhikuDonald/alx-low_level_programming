@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string starting from 0 followed by a new line
+ * puts2 - prints every other line
  * @str: the string to be reversed
  */
 void puts2(char *str)
@@ -14,7 +14,7 @@ void puts2(char *str)
 	{
 		j++;
 	}
-	for (i = 0; i < j; i+= 2)
+	for (i = 0; i < j; i += 2)
 	{
 		_putchar(str[i]);
 	}
