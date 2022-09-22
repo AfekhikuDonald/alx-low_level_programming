@@ -25,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[l1 + i] = src[i];
 		if (src[i] == '\0')
-			break ;
+			break;
 	}
 	return (dest);
 }
