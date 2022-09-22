@@ -15,11 +15,11 @@ void reverse_array(int *a, int n)
 	{
 		i++;
 	}
-	for (j = 0; j < i / 2; j++)
+	for (j = 0; j < n / 2; j++)
 	{
 		ch = a[j];
 		a[j] = a[i - 1 - j];
 		a[i - 1 - j] = ch;
 	}
-	return (a);
+	_putchar(a);
 }
