@@ -21,5 +21,4 @@ void reverse_array(int *a, int n)
 		a[j] = a[i - 1 - j];
 		a[i - 1 - j] = ch;
 	}
-	_putchar(a);
 }
