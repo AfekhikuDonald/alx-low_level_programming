@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 
 	a = k / 25;
-	b = k %25;
+	b = k  %25;
 	c = b / 10;
 	d = b % 10;
 	e = d / 5;
