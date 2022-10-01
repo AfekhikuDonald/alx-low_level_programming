@@ -1,10 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _memcpy - test
+ * _memcpy - copies memory area
+ * @dest: destination
+ * @src: size
+ * @n: size
+ * Return: pointer to dest
  */
-void _memcpy(void)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-        printf("test function");
-}
+	unsigned int i;
 
+	for (i = 0; i < n; i++)
+	{
+		*(dest + i) = *(src + i);
+	}
+	return (dest);
+}

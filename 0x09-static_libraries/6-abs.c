@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _abs - test
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of n
  */
-void _abs(void)
+int _abs(int n)
 {
-        printf("test function");
+	if (n > 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
-

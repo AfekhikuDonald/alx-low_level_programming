@@ -1,10 +1,18 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * _strlen - test
+ * _strlen - return the lenght of a string
+ * @s: the string to bve checked
+ * Return: the lenght
  */
-void _strlen(void)
+int _strlen(char *s)
 {
-        _putchar("test function");
-}
+	int i;
 
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}

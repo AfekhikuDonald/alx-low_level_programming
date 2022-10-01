@@ -1,10 +1,11 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * _isdigiut - test
+ * _isdigit - checks for a digit
+ * @c: the character to be checked
+ * Return: 1 if its a digit, 0 otherwise
  */
-void _isdigit(void)
+int _isdigit(int c)
 {
-        _putchar("test function");
+	return ((c >= 48 && c <= 57) || (c < 48 && c > 57));
 }
-
