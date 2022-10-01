@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _strncpy - test
  */
 void _strncpy(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

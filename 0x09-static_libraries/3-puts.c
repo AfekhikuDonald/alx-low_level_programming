@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _puts - test
  */
 void _puts(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

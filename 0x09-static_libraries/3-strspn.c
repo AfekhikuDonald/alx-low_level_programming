@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _strspn - test
  */
 void _strspn(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

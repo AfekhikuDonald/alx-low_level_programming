@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _strncat - test
  */
 void _strncat(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

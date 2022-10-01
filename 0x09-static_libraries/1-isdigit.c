@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * _isdigit - test
+ * _isdigiut - test
  */
 void _isdigit(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

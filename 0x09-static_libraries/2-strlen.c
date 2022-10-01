@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _strlen - test
  */
 void _strlen(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

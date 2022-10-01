@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _islower - test
  */
 void _islower(void)
 {
-        printf("test function");
+        _putchar("test function");
 }
 

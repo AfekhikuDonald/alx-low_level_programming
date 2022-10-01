@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * _isupper - test
  */
 void _isupper(void)
 {
-	printf("_isupper function");
+	_putchar("_isupper function");
 }
