@@ -9,45 +9,27 @@
  */
 int main(int argc, char *argv[])
 {
-	int cents, change;
-
-	change = 0;
+	int k, a, b, c, d, e, f, g, h, min;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	cents = atoi(argv[1]);
-	if (cents < 0)
-	{
+	k = atoi(argv[1]);
+	if (k < 0)
 		printf("0\n");
-		return (0);
-	}
-	if (cents % 25 >= 0)
-	{
-		change = cents / 25;
-		cents = cents % 25;
-	}
-	if (cents % 10 >= 0)
-	{
-		change += cents / 10;
-		cents = cents % 10;
-	}
-	if (cents % 5 >= 0)
-	{
-		change += cents / 5;
-		cents = cents % 5;
-	}
-	if (cents % 2 >= 0)
-	{
-		change += cents / 2;
-		cents = cents % 2;
-	}
-	if (cents % 1 >= 1)
-	{
-		change += cents / 1;
-	}
-	printf("%d\n", change);
+
+	a = k / 25;
+	b = k %25;
+	c = b / 10;
+	d = b % 10;
+	e = d / 5;
+	f = d % 5;
+	g = f / 2;
+	h = f % 2;
+	min = a + c + e + g + h;
+	if (k >= 0)
+	printf("%d\n", min);
 	return (0);
 }
