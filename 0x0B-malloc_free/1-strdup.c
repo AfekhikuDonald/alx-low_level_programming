@@ -3,6 +3,7 @@
 
 /**
  * _strlen - finds the lenght of the string
+ * @s: string
  * Return: lenght
  */
 int _strlen(char *s)
@@ -19,8 +20,8 @@ int _strlen(char *s)
  * _strdup - stores a copy of the given string and returns a pointer to it
  * @str:string to be copied
  * Return: returns null if the string is null
- * 		returns a pointer to the copied string on success
- * 		returns null if there is insufficient space
+ *		returns a pointer to the copied string on success
+ *		returns null if there is insufficient space
  */
 char *_strdup(char *str)
 {
