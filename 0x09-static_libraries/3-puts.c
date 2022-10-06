@@ -1,10 +1,14 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * _puts - test
+ * _puts - prints a string followed by a new line
+ * @str: the string to be printed
  */
-void _puts(void)
+void _puts(char *str)
 {
-        _putchar("test function");
+	while (*str)
+	{
+		_putchar(*str++);
+	}
+	_putchar('\n');
 }
-

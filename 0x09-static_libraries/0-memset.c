@@ -1,9 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _memset - test
+ * _memset - fills memory with a constant byte
+ * @s: original string
+ * @b: bytes to be filled in
+ * @n: number of bytes
+ * Return: pointer to s
  */
-void _memset(void)
+char *_memset(char *s, char b, unsigned int n)
 {
-	printf("_memset function");
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		*(s + i) = b;
+	}
+	return (s);
 }

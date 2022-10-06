@@ -1,10 +1,22 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * _strchr - test
+ * _strchr - locates a character in a string
+ * @s: string
+ * @c: character to search for
+ * Return: pointer to first occurence of the character
+ *		or null if the character is absent
  */
-void _strchr(void)
+char *_strchr(char *s, char c)
 {
-        _putchar("test function");
-}
+	int i;
 
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+		{
+			return (s + i);
+		}
+	}
+	return ('\0');
+}
