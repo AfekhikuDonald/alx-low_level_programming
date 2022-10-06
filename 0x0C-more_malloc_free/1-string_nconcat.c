@@ -43,14 +43,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s3 == NULL)
 		return (NULL);
 	if (n >= size2)
-		s1[size1] = s2[size2];
+		n = size2;
 	/**if (NULL)
 		return "";*/
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		*(s3 + i) = s1[i];
 	}
-	for (j = 0; j < n - 1; j++)
+	for (j = 0; j < n; j++)
 	{
 		*(s3 + i) = s2[j];
 		i++;
