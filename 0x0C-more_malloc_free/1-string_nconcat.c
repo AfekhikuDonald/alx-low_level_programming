@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	unsigned int i;
 
-	for ( i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
 	return (i);
@@ -44,8 +44,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	if (n >= size2)
 		n = size2;
-	/**if (NULL)
-		return "";*/
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		*(s3 + i) = s1[i];
