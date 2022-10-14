@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - prints numbers followed by a new line
- * @seperator: seperator between each item
+ * @separator: seperator between each item
  * @n: number of elements
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
