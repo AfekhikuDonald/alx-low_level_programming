@@ -5,7 +5,7 @@
 /**
  * print_strings - prints strings
  * @separator: delimiter
- * @n: number of strings 
+ * @n: number of strings
  * @...: variable number of items
  */
 void print_strings(const char *separator, const unsigned int n, ...)
