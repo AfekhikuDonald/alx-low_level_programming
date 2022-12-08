@@ -12,6 +12,7 @@ size_t dlistint_len(const dlistint_t *h)
 
 	while (tmp != NULL)
 	{
+		tmp = tmp->next;
 		len++;
 	}
 	return (len);
